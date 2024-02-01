@@ -45,6 +45,5 @@ defaults
 	#backend setup for my two webservers
         backend web-backend
                 balance roundrobin
-                server web01 web-01.fazisols.tech:80 check
-                server web02 web-02.fazisols.tech:80 check
-
+                server web01 54.172.15.186:80 check
+                server web02 54.172.133.28:80 check
